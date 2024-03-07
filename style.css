@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+.intestazione {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #E63C70;
+}
