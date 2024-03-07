@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: "Balsamiq Sans", sans-serif;
 }
 
@@ -12,4 +11,64 @@ body {
 h1 {
     font-size: 3rem;
     color: #E63C70;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    background-color: black;
+    float: left;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.image {
+    height: 120px;
+    float: left;
+}
+
+.description {
+    float: left;
+    padding-left: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.blue {
+    color: blue;
+}
+
+.prima {
+    content: url(./img/male1.png);
+}
+
+.seconda {
+    content: url(./img/female1.png);
+}
+
+.terza {
+    content: url(./img/male2.png);
+}
+
+.quarta {
+    content: url(./img/female2.png);
+}
+
+.quinta {
+    content: url(./img/male3.png);
+}
+
+.sesta {
+    content: url(./img/female3.png);
 }
